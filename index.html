@@ -1,0 +1,48 @@
+<!-- 
+ボタンで年を 表⽰
+ -->
+ <section>
+ <h2>
+年の 表⽰
+</h2>
+ <button id="btnShowYear" class="btn">
+今年を 表⽰
+</button>
+ <div id="yearResult" class="result" aria
+live="polite"></div>
+ </section>
+ <!-- 
+数量
+×
+単価の 合計を 表⽰
+ -->
+ <section>
+ <h2>
+合計の 計算
+</h2>
+ <label>
+数量
+<input id="qtyInput" type="number" 
+inputmode="numeric" placeholder="
+数量
+" />
+ </label>
+ <label>
+単価（円）
+<input id="priceInput" type="number" 
+inputmode="numeric" placeholder="
+単価
+" />
+ </label>
+ <button id="btnCalc" class="btn">
+合計を 計算
+</button>
+ <div id="totalResult" class="result" aria
+live="polite"></div>
+ </section>
+ <!-- script
+は
+defer
+推奨
+ -->
+ <script defer src="script.js"></script>

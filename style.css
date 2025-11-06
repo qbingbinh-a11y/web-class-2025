@@ -1,0 +1,25 @@
+:root{
+    --accent: #0066cc;
+}
+*{box-sizing:border-box; }
+html,body{height:100%;}
+body{
+    font-family: system-ui, -apple-system, "segoe UI",
+    Roboto, "Noto sans JP",sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #2b0f91;
+    background: #fff;
+    margin: 0;
+}
+.container{
+    max-width: 720px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+h1,h2{color: #333;}
+a{color: var(--accent); text-decoration: none;}
+a:hover {color: #004999; text-decoration: underline; }
+img{ max-width: 100%; height: auto;}
+p{margin: 0 0 1em;}
+ul{padding-left:1.25em;}
